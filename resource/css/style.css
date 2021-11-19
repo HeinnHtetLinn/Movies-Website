@@ -1,0 +1,190 @@
+/*..................Html,body....................*/
+html,
+body{
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Lato" , sans-serif;
+}
+p{
+    font-family: "Roboto Slab" , sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+footer,
+section{
+    background-color: #fff;
+    overflow: hidden;
+}
+/*..................content box...................*/
+.content-about-lg{
+    padding: 120px 0;
+}
+.content-about-md{
+    padding:100px 0;
+}
+
+nav{
+    background-color: #fff;
+    box-shadow: 0px 10px 20px #000;
+    height: 80px;
+    border-top: 2px solid #000;
+    margin-bottom: 30px;
+}
+.navbar-left{
+    display: flex;
+    width: 100%;
+    margin:0 auto;
+    margin-top: 15px;
+}
+.nav{
+    display: flex;
+    margin: 0 auto;
+    margin-right: 0;
+}
+.head{
+    font-size: 30px;
+    margin-right: 20px;
+    color: #000;
+}
+nav .head{
+    text-decoration: none;
+}
+.form{
+    position: relative;
+    display: block;
+}
+.form .search{
+    border-radius: 20px;
+    border: 1px solid #000;
+    margin-top: 10px;
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.nav a{
+    color: #000;
+}
+.nav li{
+    height: 100%;
+}
+/* body section */
+.card{
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.img img{
+    width: 100%;
+    max-height: 230px;
+    border-radius: 15px;
+    border: 1px solid rgb(204, 204, 204);
+    transition: 0.5s;
+}
+.content ul li{
+    list-style: none;
+}
+.date li{
+    display: inline-block;
+}
+.date{
+    padding-left: 0;
+    transition:all 0.3s;
+}
+.gendre{
+    padding-left: 0;
+    transition:all 0.3s;
+}
+.btn-watch{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 80%;
+    box-shadow: 0px 3px 6px #000;
+    opacity: 0;
+    transition: 0.3s;
+}
+.a{
+    padding-left: 20px;
+}
+#body{
+    margin-top: 85px;
+    background-color:#fff;
+    width: 100%;
+
+}
+.row{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.red{
+    height: 240px;
+}
+.img img:hover{
+    box-shadow: 2px 0px 10px #000;
+    transform: translateY(-5%);
+}
+.card:hover{
+    background-color: #78787839;
+    box-shadow: 2px 0px 10px #000;
+    
+}
+.card:hover .content{
+    transform: translateY(-10%);
+}
+.card:hover .btn-watch{
+    opacity: 1;
+}
+.card:hover .date,
+.card:hover .gendre{
+    text-align: center;
+}
+/* footer */
+footer{
+    background-color: black;
+    margin-top: 50px;
+}
+.ic i{
+    font-size: 28px;
+    margin-left: 30px;
+    color: #fff;
+}
+.icon{
+    margin-top: 25px;
+
+}
+#list ul li{
+    color: #fff;
+    list-style-type: none;
+    
+}
+#list ul{
+    padding: 0;
+}
+.a li a{
+    color: #333;
+    text-decoration: none;
+}
+.a li a:hover{
+    color:#fff;
+}
+#list h4{
+    color: #fff;
+}
+.icon .facebook:hover{
+    color:#1877f2;
+}
+.icon .insta:hover{
+    color: #7232bd;
+}
+.icon .twitter:hover{
+    color: #1da1f2;
+}
+.icon .google:hover{
+    color: #ea4335;
+}
